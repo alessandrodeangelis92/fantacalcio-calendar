@@ -9,11 +9,9 @@ import tempfile
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from urllib.parse import urlparse
 
 import requests
 from icalendar import Calendar, Event, Alarm
-from dateutil import parser as date_parser
 from zoneinfo import ZoneInfo
 
 
@@ -78,9 +76,6 @@ def download_feed(source_url):
 
 
 def get_property(component, property_name):
-    """
-    Restituisce il valore di una proprietà ICS come stringa.
-    """
     value = component.get(property_name)
 
     if value is None:
@@ -102,15 +97,12 @@ def normalize_text(value):
 def extract_round_from_text(text):
     """
     Cerca indicazioni come:
-      - Giornata 1
-      - Giornata 01
-      - Round 1
-      - Matchday 1
-      - MD1
-      - Jornada 1
-
-    Restituisce un intero oppure None.
+    - Giornata 1
+    - Round 1
+    - Matchday 1
+    - MD1
     """
+
     if not text:
         return None
 
@@ -124,6 +116,7 @@ def extract_round_from_text(text):
 
     for pattern in patterns:
         match = re.search(pattern, text, flags=re.IGNORECASE)
+
         if match:
             return int(match.group(1))
 
@@ -133,11 +126,8 @@ def extract_round_from_text(text):
 def extract_round(component):
     """
     Prova a ricavare il numero della giornata da diversi campi ICS.
-
-    Nota:
-    il formato dei feed sportivi può variare. Per questo controlliamo
-    sia proprietà standard sia il testo dell'evento.
     """
+
     candidate_fields = [
         "X-ROUND",
         "X-MATCHDAY",
@@ -188,10 +178,8 @@ def parse_event_datetime(component, property_name, local_timezone):
 def is_probable_match_event(component):
     """
     Filtra gli eventi che sembrano essere partite.
-
-    Gli eventi sportivi di Matchesio normalmente hanno SUMMARY,
-    DTSTART e DTEND. Evitiamo di includere eventi privi di orario.
     """
+
     if component.name != "VEVENT":
         return False
 
@@ -237,10 +225,21 @@ def parse_matches(feed_content, local_timezone):
         if start is None:
             continue
 
-        summary = normalize_text(get_property(component, "SUMMARY"))
-        description = normalize_text(get_property(component, "DESCRIPTION"))
-        location = normalize_text(get_property(component, "LOCATION"))
-        uid = normalize_text(get_property(component, "UID"))
+        summary = normalize_text(
+            get_property(component, "SUMMARY")
+        )
+
+        description = normalize_text(
+            get_property(component, "DESCRIPTION")
+        )
+
+        location = normalize_text(
+            get_property(component, "LOCATION")
+        )
+
+        uid = normalize_text(
+            get_property(component, "UID")
+        )
 
         round_number = extract_round(component)
 
@@ -260,7 +259,10 @@ def parse_matches(feed_content, local_timezone):
 
     matches.sort(key=lambda match: match["start"])
 
-    LOGGER.info("Eventi trovati nel feed: %d", len(matches))
+    LOGGER.info(
+        "Eventi trovati nel feed: %d",
+        len(matches),
+    )
 
     rounds_found = sorted(
         {
@@ -271,7 +273,10 @@ def parse_matches(feed_content, local_timezone):
     )
 
     if rounds_found:
-        LOGGER.info("Giornate individuate nel feed: %s", rounds_found)
+        LOGGER.info(
+            "Giornate individuate nel feed: %s",
+            rounds_found,
+        )
     else:
         LOGGER.warning(
             "Il feed non espone una giornata riconoscibile negli eventi"
@@ -283,10 +288,8 @@ def parse_matches(feed_content, local_timezone):
 def group_matches_by_round(matches):
     """
     Raggruppa le partite per giornata.
-
-    Se il feed contiene il numero della giornata, viene utilizzato.
-    Gli eventi senza giornata vengono raccolti separatamente.
     """
+
     grouped = defaultdict(list)
     without_round = []
 
@@ -301,16 +304,12 @@ def group_matches_by_round(matches):
 
 def group_unknown_matches_by_blocks(matches):
     """
-    Fallback prudente per feed che non riportano il numero della giornata.
+    Fallback per feed che non riportano il numero della giornata.
 
-    La Serie A prevede normalmente 10 partite per giornata. Tuttavia,
-    durante anticipi, posticipi e recuperi il calendario può essere
-    temporaneamente incompleto o distribuito in modo non ordinato.
-
-    Per evitare di generare un calendario errato, questo fallback
-    viene usato soltanto quando il numero totale degli eventi è
-    multiplo di 10 e gli eventi sono già ordinati cronologicamente.
+    Viene utilizzato soltanto se il numero totale degli eventi è
+    multiplo di 10.
     """
+
     if not matches:
         return {}
 
@@ -329,21 +328,13 @@ def group_unknown_matches_by_blocks(matches):
 
     LOGGER.warning(
         "Giornate ricostruite per blocchi di 10 partite. "
-        "Verificare il risultato prima di usare il calendario."
+        "Verificare il risultato."
     )
 
     return grouped
 
 
 def validate_matches(grouped):
-    """
-    Controlli di sicurezza per evitare di pubblicare un calendario
-    palesemente errato.
-
-    Non richiediamo esattamente 10 partite per giornata, perché
-    il feed potrebbe essere aggiornato durante la stagione e alcune
-    giornate potrebbero avere recuperi o dati incompleti.
-    """
     if not grouped:
         raise ValueError("Nessuna giornata disponibile")
 
@@ -368,36 +359,67 @@ def validate_matches(grouped):
 
 
 def make_uid(round_number, season):
-    safe_season = re.sub(r"[^a-zA-Z0-9]+", "-", season).strip("-")
+    """
+    Genera un UID stabile e non riconducibile al nome dell'utente.
+    """
+
+    safe_season = re.sub(
+        r"[^a-zA-Z0-9]+",
+        "-",
+        season,
+    ).strip("-")
 
     return (
         f"fantacalcio-formazione-{safe_season}"
-        f"-giornata-{round_number}@alessandrodeangelis92"
+        f"-giornata-{round_number}@calendar.local"
     )
 
 
 def add_alarm(event, trigger):
     alarm = Alarm()
+
     alarm.add("ACTION", "DISPLAY")
-    alarm.add("DESCRIPTION", "Scadenza formazione Fantacalcio")
+    alarm.add(
+        "DESCRIPTION",
+        "Scadenza formazione Fantacalcio",
+    )
     alarm.add("TRIGGER", trigger)
+
     event.add_component(alarm)
 
 
 def create_calendar(config, grouped_matches):
     calendar = Calendar()
 
-    calendar.add("PRODID", "-//Fantacalcio Calendar//alessandrodeangelis92//IT")
+    # Identificativo generico, senza nome o username personale.
+    calendar.add(
+        "PRODID",
+        "-//Fantacalcio Calendar//Calendar Generator//IT",
+    )
+
     calendar.add("VERSION", "2.0")
     calendar.add("CALSCALE", "GREGORIAN")
     calendar.add("METHOD", "PUBLISH")
-    calendar.add("X-WR-CALNAME", config["calendar_name"])
-    calendar.add("X-WR-CALDESC", "Scadenze per inserire la formazione Fantacalcio")
-    calendar.add("X-WR-TIMEZONE", config["timezone"])
+
+    calendar.add(
+        "X-WR-CALNAME",
+        config["calendar_name"],
+    )
+
+    calendar.add(
+        "X-WR-CALDESC",
+        "Scadenze per inserire la formazione Fantacalcio",
+    )
+
+    calendar.add(
+        "X-WR-TIMEZONE",
+        config["timezone"],
+    )
 
     season = config["season"]
-    minutes_before = int(config["minutes_before_first_match"])
-    local_timezone = ZoneInfo(config["timezone"])
+    minutes_before = int(
+        config["minutes_before_first_match"]
+    )
 
     generated_at = datetime.now(timezone.utc)
 
@@ -406,20 +428,39 @@ def create_calendar(config, grouped_matches):
         matches.sort(key=lambda match: match["start"])
 
         first_match = matches[0]["start"]
-        deadline = first_match - timedelta(minutes=minutes_before)
+
+        deadline = first_match - timedelta(
+            minutes=minutes_before
+        )
 
         event = Event()
 
-        event.add("UID", make_uid(round_number, season))
-        event.add("DTSTAMP", generated_at)
-        event.add("DTSTART", deadline)
+        event.add(
+            "UID",
+            make_uid(round_number, season),
+        )
+
+        event.add(
+            "DTSTAMP",
+            generated_at,
+        )
+
+        event.add(
+            "DTSTART",
+            deadline,
+        )
+
         event.add(
             "DTEND",
             deadline + timedelta(minutes=5),
         )
+
         event.add(
             "SUMMARY",
-            f"⚽ Inserire formazione Fantacalcio — Giornata {round_number}",
+            (
+                "⚽ Inserire formazione Fantacalcio"
+                f" — Giornata {round_number}"
+            ),
         )
 
         match_lines = []
@@ -435,21 +476,43 @@ def create_calendar(config, grouped_matches):
             f"della giornata {round_number}.\n\n"
             f"La prima partita inizia alle "
             f"{first_match.strftime('%d/%m/%Y alle %H:%M')}.\n"
-            f"La scadenza è impostata a {minutes_before} minuti prima.\n\n"
+            f"La scadenza è impostata a "
+            f"{minutes_before} minuti prima.\n\n"
             f"Partite rilevate:\n"
             + "\n".join(match_lines)
         )
 
-        event.add("DESCRIPTION", description)
-        event.add("CATEGORIES", "Fantacalcio")
-        event.add("STATUS", "CONFIRMED")
-        event.add("TRANSP", "TRANSPARENT")
+        event.add(
+            "DESCRIPTION",
+            description,
+        )
 
-        # Avviso un giorno prima.
-        add_alarm(event, timedelta(days=-1))
+        event.add(
+            "CATEGORIES",
+            "Fantacalcio",
+        )
 
-        # Avviso un'ora prima.
-        add_alarm(event, timedelta(hours=-1))
+        event.add(
+            "STATUS",
+            "CONFIRMED",
+        )
+
+        event.add(
+            "TRANSP",
+            "TRANSPARENT",
+        )
+
+        # Promemoria un giorno prima.
+        add_alarm(
+            event,
+            timedelta(days=-1),
+        )
+
+        # Promemoria un'ora prima.
+        add_alarm(
+            event,
+            timedelta(hours=-1),
+        )
 
         calendar.add_component(event)
 
@@ -459,10 +522,13 @@ def create_calendar(config, grouped_matches):
 def write_calendar(calendar, output_file):
     """
     Scrive prima in un file temporaneo e poi sostituisce il file finale.
-    In questo modo, se la generazione fallisce, non si perde il calendario
-    precedente.
+    Se la generazione fallisce, il calendario precedente non viene perso.
     """
-    output_file.parent.mkdir(parents=True, exist_ok=True)
+
+    output_file.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
 
     with tempfile.NamedTemporaryFile(
         mode="wb",
@@ -471,23 +537,45 @@ def write_calendar(calendar, output_file):
         prefix=".fantacalcio-",
         suffix=".ics",
     ) as temporary_file:
-        temporary_path = Path(temporary_file.name)
-        temporary_file.write(calendar.to_ical())
+        temporary_path = Path(
+            temporary_file.name
+        )
 
-    os.replace(temporary_path, output_file)
+        temporary_file.write(
+            calendar.to_ical()
+        )
 
-    LOGGER.info("Calendario scritto in: %s", output_file)
+    os.replace(
+        temporary_path,
+        output_file,
+    )
+
+    LOGGER.info(
+        "Calendario scritto in: %s",
+        output_file,
+    )
 
 
 def main():
     try:
         config = load_config()
 
-        local_timezone = ZoneInfo(config["timezone"])
-        feed_content = download_feed(config["source_url"])
-        matches = parse_matches(feed_content, local_timezone)
+        local_timezone = ZoneInfo(
+            config["timezone"]
+        )
 
-        grouped, without_round = group_matches_by_round(matches)
+        feed_content = download_feed(
+            config["source_url"]
+        )
+
+        matches = parse_matches(
+            feed_content,
+            local_timezone,
+        )
+
+        grouped, without_round = group_matches_by_round(
+            matches
+        )
 
         if without_round:
             LOGGER.warning(
@@ -496,23 +584,37 @@ def main():
             )
 
         if not grouped:
-            grouped = group_unknown_matches_by_blocks(matches)
+            grouped = group_unknown_matches_by_blocks(
+                matches
+            )
+
         elif without_round:
             LOGGER.warning(
-                "Gli eventi senza giornata verranno ignorati. "
-                "Questo evita di assegnarli automaticamente alla giornata "
-                "sbagliata."
+                "Gli eventi senza giornata verranno ignorati "
+                "per evitare assegnazioni errate."
             )
 
         validate_matches(grouped)
 
-        calendar = create_calendar(config, grouped)
-        write_calendar(calendar, OUTPUT_FILE)
+        calendar = create_calendar(
+            config,
+            grouped,
+        )
 
-        LOGGER.info("Generazione completata correttamente")
+        write_calendar(
+            calendar,
+            OUTPUT_FILE,
+        )
+
+        LOGGER.info(
+            "Generazione completata correttamente"
+        )
 
     except Exception as error:
-        LOGGER.error("Generazione fallita: %s", error)
+        LOGGER.error(
+            "Generazione fallita: %s",
+            error,
+        )
         sys.exit(1)
 
 
