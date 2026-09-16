@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Fantacalcio Calendar//alessandrodeangelis92//IT
+PRODID:-//Fantacalcio Calendar//Calendar Generator//IT
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALDESC:Scadenze per inserire la formazione Fantacalcio
@@ -10,8 +10,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 1
 DTSTART;TZID=Europe/Rome:20260822T182500
 DTEND;TZID=Europe/Rome:20260822T183000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-1@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-1@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   1.\n\nLa prima partita inizia alle 22/08/2026 alle 18:30.\nLa scadenza è
@@ -39,8 +39,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 2
 DTSTART;TZID=Europe/Rome:20260828T204000
 DTEND;TZID=Europe/Rome:20260828T204500
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-2@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-2@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   2.\n\nLa prima partita inizia alle 28/08/2026 alle 20:45.\nLa scadenza è
@@ -68,8 +68,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 3
 DTSTART;TZID=Europe/Rome:20260904T204000
 DTEND;TZID=Europe/Rome:20260904T204500
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-3@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-3@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   3.\n\nLa prima partita inizia alle 04/09/2026 alle 20:45.\nLa scadenza è
@@ -97,8 +97,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 4
 DTSTART;TZID=Europe/Rome:20260911T204000
 DTEND;TZID=Europe/Rome:20260911T204500
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-4@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-4@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   4.\n\nLa prima partita inizia alle 11/09/2026 alle 20:45.\nLa scadenza è
@@ -126,8 +126,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 5
 DTSTART;TZID=Europe/Rome:20260918T204000
 DTEND;TZID=Europe/Rome:20260918T204500
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-5@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-5@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   5.\n\nLa prima partita inizia alle 18/09/2026 alle 20:45.\nLa scadenza è
@@ -154,8 +154,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 6
 DTSTART;TZID=Europe/Rome:20261010T145500
 DTEND;TZID=Europe/Rome:20261010T150000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-6@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-6@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   6.\n\nLa prima partita inizia alle 10/10/2026 alle 15:00.\nLa scadenza è
@@ -182,8 +182,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 7
 DTSTART;TZID=Europe/Rome:20261016T204000
 DTEND;TZID=Europe/Rome:20261016T204500
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-7@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-7@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   7.\n\nLa prima partita inizia alle 16/10/2026 alle 20:45.\nLa scadenza è
@@ -210,8 +210,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 8
 DTSTART;TZID=Europe/Rome:20261025T182500
 DTEND;TZID=Europe/Rome:20261025T183000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-8@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-8@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   8.\n\nLa prima partita inizia alle 25/10/2026 alle 18:30.\nLa scadenza è
@@ -238,8 +238,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 9
 DTSTART;TZID=Europe/Rome:20261028T182500
 DTEND;TZID=Europe/Rome:20261028T183000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-9@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-9@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   9.\n\nLa prima partita inizia alle 28/10/2026 alle 18:30.\nLa scadenza è
@@ -266,8 +266,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 10
 DTSTART;TZID=Europe/Rome:20261101T182500
 DTEND;TZID=Europe/Rome:20261101T183000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-10@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-10@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   10.\n\nLa prima partita inizia alle 01/11/2026 alle 18:30.\nLa scadenza 
@@ -294,8 +294,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 11
 DTSTART;TZID=Europe/Rome:20261108T182500
 DTEND;TZID=Europe/Rome:20261108T183000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-11@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-11@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   11.\n\nLa prima partita inizia alle 08/11/2026 alle 18:30.\nLa scadenza 
@@ -322,8 +322,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 12
 DTSTART;TZID=Europe/Rome:20261122T182500
 DTEND;TZID=Europe/Rome:20261122T183000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-12@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-12@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   12.\n\nLa prima partita inizia alle 22/11/2026 alle 18:30.\nLa scadenza 
@@ -350,8 +350,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 13
 DTSTART;TZID=Europe/Rome:20261129T182500
 DTEND;TZID=Europe/Rome:20261129T183000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-13@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-13@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   13.\n\nLa prima partita inizia alle 29/11/2026 alle 18:30.\nLa scadenza 
@@ -378,8 +378,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 14
 DTSTART;TZID=Europe/Rome:20261206T182500
 DTEND;TZID=Europe/Rome:20261206T183000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-14@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-14@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   14.\n\nLa prima partita inizia alle 06/12/2026 alle 18:30.\nLa scadenza 
@@ -406,8 +406,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 15
 DTSTART;TZID=Europe/Rome:20261213T182500
 DTEND;TZID=Europe/Rome:20261213T183000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-15@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-15@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   15.\n\nLa prima partita inizia alle 13/12/2026 alle 18:30.\nLa scadenza 
@@ -434,8 +434,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 16
 DTSTART;TZID=Europe/Rome:20261220T182500
 DTEND;TZID=Europe/Rome:20261220T183000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-16@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-16@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   16.\n\nLa prima partita inizia alle 20/12/2026 alle 18:30.\nLa scadenza 
@@ -462,8 +462,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 17
 DTSTART;TZID=Europe/Rome:20270103T182500
 DTEND;TZID=Europe/Rome:20270103T183000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-17@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-17@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   17.\n\nLa prima partita inizia alle 03/01/2027 alle 18:30.\nLa scadenza 
@@ -490,8 +490,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 18
 DTSTART;TZID=Europe/Rome:20270106T182500
 DTEND;TZID=Europe/Rome:20270106T183000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-18@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-18@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   18.\n\nLa prima partita inizia alle 06/01/2027 alle 18:30.\nLa scadenza 
@@ -518,8 +518,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 19
 DTSTART;TZID=Europe/Rome:20270110T182500
 DTEND;TZID=Europe/Rome:20270110T183000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-19@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-19@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   19.\n\nLa prima partita inizia alle 10/01/2027 alle 18:30.\nLa scadenza 
@@ -546,8 +546,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 20
 DTSTART;TZID=Europe/Rome:20270117T182500
 DTEND;TZID=Europe/Rome:20270117T183000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-20@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-20@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   20.\n\nLa prima partita inizia alle 17/01/2027 alle 18:30.\nLa scadenza 
@@ -574,8 +574,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 21
 DTSTART;TZID=Europe/Rome:20270124T182500
 DTEND;TZID=Europe/Rome:20270124T183000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-21@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-21@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   21.\n\nLa prima partita inizia alle 24/01/2027 alle 18:30.\nLa scadenza 
@@ -602,8 +602,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 22
 DTSTART;TZID=Europe/Rome:20270131T182500
 DTEND;TZID=Europe/Rome:20270131T183000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-22@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-22@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   22.\n\nLa prima partita inizia alle 31/01/2027 alle 18:30.\nLa scadenza 
@@ -630,8 +630,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 23
 DTSTART;TZID=Europe/Rome:20270207T182500
 DTEND;TZID=Europe/Rome:20270207T183000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-23@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-23@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   23.\n\nLa prima partita inizia alle 07/02/2027 alle 18:30.\nLa scadenza 
@@ -658,8 +658,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 24
 DTSTART;TZID=Europe/Rome:20270214T182500
 DTEND;TZID=Europe/Rome:20270214T183000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-24@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-24@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   24.\n\nLa prima partita inizia alle 14/02/2027 alle 18:30.\nLa scadenza 
@@ -686,8 +686,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 25
 DTSTART;TZID=Europe/Rome:20270221T182500
 DTEND;TZID=Europe/Rome:20270221T183000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-25@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-25@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   25.\n\nLa prima partita inizia alle 21/02/2027 alle 18:30.\nLa scadenza 
@@ -714,8 +714,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 26
 DTSTART;TZID=Europe/Rome:20270228T182500
 DTEND;TZID=Europe/Rome:20270228T183000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-26@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-26@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   26.\n\nLa prima partita inizia alle 28/02/2027 alle 18:30.\nLa scadenza 
@@ -742,8 +742,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 27
 DTSTART;TZID=Europe/Rome:20270307T182500
 DTEND;TZID=Europe/Rome:20270307T183000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-27@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-27@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   27.\n\nLa prima partita inizia alle 07/03/2027 alle 18:30.\nLa scadenza 
@@ -770,8 +770,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 28
 DTSTART;TZID=Europe/Rome:20270314T182500
 DTEND;TZID=Europe/Rome:20270314T183000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-28@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-28@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   28.\n\nLa prima partita inizia alle 14/03/2027 alle 18:30.\nLa scadenza 
@@ -798,8 +798,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 29
 DTSTART;TZID=Europe/Rome:20270321T182500
 DTEND;TZID=Europe/Rome:20270321T183000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-29@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-29@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   29.\n\nLa prima partita inizia alle 21/03/2027 alle 18:30.\nLa scadenza 
@@ -826,8 +826,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 30
 DTSTART;TZID=Europe/Rome:20270404T182500
 DTEND;TZID=Europe/Rome:20270404T183000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-30@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-30@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   30.\n\nLa prima partita inizia alle 04/04/2027 alle 18:30.\nLa scadenza 
@@ -854,8 +854,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 31
 DTSTART;TZID=Europe/Rome:20270411T182500
 DTEND;TZID=Europe/Rome:20270411T183000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-31@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-31@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   31.\n\nLa prima partita inizia alle 11/04/2027 alle 18:30.\nLa scadenza 
@@ -882,8 +882,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 32
 DTSTART;TZID=Europe/Rome:20270418T182500
 DTEND;TZID=Europe/Rome:20270418T183000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-32@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-32@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   32.\n\nLa prima partita inizia alle 18/04/2027 alle 18:30.\nLa scadenza 
@@ -910,8 +910,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 33
 DTSTART;TZID=Europe/Rome:20270425T182500
 DTEND;TZID=Europe/Rome:20270425T183000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-33@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-33@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   33.\n\nLa prima partita inizia alle 25/04/2027 alle 18:30.\nLa scadenza 
@@ -938,8 +938,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 34
 DTSTART;TZID=Europe/Rome:20270502T182500
 DTEND;TZID=Europe/Rome:20270502T183000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-34@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-34@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   34.\n\nLa prima partita inizia alle 02/05/2027 alle 18:30.\nLa scadenza 
@@ -966,8 +966,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 35
 DTSTART;TZID=Europe/Rome:20270509T182500
 DTEND;TZID=Europe/Rome:20270509T183000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-35@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-35@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   35.\n\nLa prima partita inizia alle 09/05/2027 alle 18:30.\nLa scadenza 
@@ -994,8 +994,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 36
 DTSTART;TZID=Europe/Rome:20270516T182500
 DTEND;TZID=Europe/Rome:20270516T183000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-36@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-36@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   36.\n\nLa prima partita inizia alle 16/05/2027 alle 18:30.\nLa scadenza 
@@ -1022,8 +1022,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 37
 DTSTART;TZID=Europe/Rome:20270523T182500
 DTEND;TZID=Europe/Rome:20270523T183000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-37@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-37@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   37.\n\nLa prima partita inizia alle 23/05/2027 alle 18:30.\nLa scadenza 
@@ -1050,8 +1050,8 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 38
 DTSTART;TZID=Europe/Rome:20270530T182500
 DTEND;TZID=Europe/Rome:20270530T183000
-DTSTAMP:20260916T201151Z
-UID:fantacalcio-formazione-2026-27-giornata-38@alessandrodeangelis92
+DTSTAMP:20260916T201713Z
+UID:fantacalcio-formazione-2026-27-giornata-38@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   38.\n\nLa prima partita inizia alle 30/05/2027 alle 18:30.\nLa scadenza 
