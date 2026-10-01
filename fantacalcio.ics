@@ -10,13 +10,13 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 1
 DTSTART;TZID=Europe/Rome:20260822T173000
 DTEND;TZID=Europe/Rome:20260822T173500
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-1@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   1.\n\nLa prima partita inizia alle 22/08/2026 alle 18:30.\nL'evento è im
  postato a 60 minuti prima.\n\nPartite rilevate:\n- 22/08/2026 18:30 Udines
- e 1 - 1 Como\n- 22/08/2026 18:30 Inter 4 - 1 Monza\n- 22/08/2026 20:45 Gen
+ e 1 - 1 como\n- 22/08/2026 18:30 Inter 4 - 1 Monza\n- 22/08/2026 20:45 Gen
  oa 0 - 2 Napoli\n- 22/08/2026 20:45 Parma 0 - 1 Cagliari\n- 23/08/2026 18:
  30 Frosinone 0 - 1 Juventus\n- 23/08/2026 18:30 Venezia 0 - 2 Lecce\n- 23/
  08/2026 20:45 Atalanta 2 - 1 Sassuolo\n- 23/08/2026 20:45 Torino 1 - 2 AC 
@@ -34,7 +34,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 2
 DTSTART;TZID=Europe/Rome:20260828T194500
 DTEND;TZID=Europe/Rome:20260828T195000
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-2@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
@@ -42,7 +42,7 @@ DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
  postato a 60 minuti prima.\n\nPartite rilevate:\n- 28/08/2026 20:45 AC Mil
  an 2 - 0 Venezia\n- 29/08/2026 18:30 Sassuolo 2 - 1 Torino\n- 29/08/2026 1
  8:30 Fiorentina 0 - 3 Frosinone\n- 29/08/2026 18:30 Monza 2 - 3 Udinese\n-
-  29/08/2026 20:45 Juventus 2 - 0 Parma\n- 30/08/2026 18:30 Napoli 1 - 2 Co
+  29/08/2026 20:45 Juventus 2 - 0 Parma\n- 30/08/2026 18:30 Napoli 1 - 2 co
  mo\n- 30/08/2026 20:45 Lazio 1 - 0 Genoa\n- 30/08/2026 20:45 Cagliari 0 - 
  1 Inter\n- 31/08/2026 18:30 Lecce 0 - 4 AS Roma\n- 31/08/2026 20:45 Atalan
  ta 1 - 0 Bologna
@@ -58,13 +58,13 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 3
 DTSTART;TZID=Europe/Rome:20260904T194500
 DTEND;TZID=Europe/Rome:20260904T195000
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-3@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   3.\n\nLa prima partita inizia alle 04/09/2026 alle 20:45.\nL'evento è im
  postato a 60 minuti prima.\n\nPartite rilevate:\n- 04/09/2026 20:45 Genoa 
- 1 - 4 Como\n- 05/09/2026 15:00 Fiorentina 1 - 2 Torino\n- 05/09/2026 18:00
+ 1 - 4 como\n- 05/09/2026 15:00 Fiorentina 1 - 2 Torino\n- 05/09/2026 18:00
   Inter 3 - 2 Napoli\n- 05/09/2026 20:45 AS Roma 2 - 1 Atalanta\n- 06/09/20
  26 15:00 Frosinone 3 - 2 Venezia\n- 06/09/2026 15:00 Parma 1 - 1 Monza\n- 
  06/09/2026 18:00 Bologna 2 - 2 Sassuolo\n- 06/09/2026 20:45 Juventus 1 - 1
@@ -82,7 +82,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 4
 DTSTART;TZID=Europe/Rome:20260911T194500
 DTEND;TZID=Europe/Rome:20260911T195000
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-4@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
@@ -92,7 +92,7 @@ DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   18:00 Lazio 2 - 2 AC Milan\n- 12/09/2026 20:45 Atalanta 1 - 2 Cagliari\n-
   13/09/2026 15:00 Lecce 3 - 2 Monza\n- 13/09/2026 18:00 Napoli 1 - 0 Bolog
  na\n- 13/09/2026 20:45 Sassuolo 3 - 2 Juventus\n- 14/09/2026 18:30 Torino 
- 0 - 2 AS Roma\n- 14/09/2026 18:30 Como 2 - 1 Parma\n- 14/09/2026 20:45 Int
+ 0 - 2 AS Roma\n- 14/09/2026 18:30 como 2 - 1 Parma\n- 14/09/2026 20:45 Int
  er 5 - 3 Udinese
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -106,7 +106,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 5
 DTSTART;TZID=Europe/Rome:20260918T194500
 DTEND;TZID=Europe/Rome:20260918T195000
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-5@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
@@ -115,7 +115,7 @@ DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
  2 - 1 Sassuolo\n- 19/09/2026 15:00 Udinese 0 - 1 Cagliari\n- 19/09/2026 15
  :00 Bologna 1 - 1 Torino\n- 19/09/2026 18:00 AS Roma 2 - 2 Inter\n- 19/09/
  2026 20:45 Venezia 0 - 2 Lazio\n- 20/09/2026 12:30 Fiorentina 1 - 1 Napoli
- \n- 20/09/2026 15:00 Frosinone 2 - 0 Como\n- 20/09/2026 15:00 Parma 2 - 1 
+ \n- 20/09/2026 15:00 Frosinone 2 - 0 como\n- 20/09/2026 15:00 Parma 2 - 1 
  Genoa\n- 20/09/2026 18:00 Juventus 2 - 0 Atalanta\n- 20/09/2026 20:45 AC M
  ilan 3 - 0 Lecce
 STATUS:CONFIRMED
@@ -130,14 +130,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 6
 DTSTART;TZID=Europe/Rome:20261010T140000
 DTEND;TZID=Europe/Rome:20261010T140500
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-6@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   6.\n\nLa prima partita inizia alle 10/10/2026 alle 15:00.\nL'evento è im
  postato a 60 minuti prima.\n\nPartite rilevate:\n- 10/10/2026 15:00 Genoa 
  - Fiorentina\n- 10/10/2026 18:00 Inter - Parma\n- 10/10/2026 20:45 Napoli 
- - Frosinone\n- 11/10/2026 12:30 Como - AS Roma\n- 11/10/2026 15:00 Lazio -
+ - Frosinone\n- 11/10/2026 12:30 como - AS Roma\n- 11/10/2026 15:00 Lazio -
   Monza\n- 11/10/2026 15:00 Lecce - Bologna\n- 11/10/2026 18:00 Sassuolo - 
  AC Milan\n- 11/10/2026 20:45 Cagliari - Juventus\n- 12/10/2026 18:30 Atala
  nta - Venezia\n- 12/10/2026 20:45 Torino - Udinese
@@ -153,7 +153,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 7
 DTSTART;TZID=Europe/Rome:20261016T194500
 DTEND;TZID=Europe/Rome:20261016T195000
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-7@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
@@ -161,7 +161,7 @@ DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
  postato a 60 minuti prima.\n\nPartite rilevate:\n- 16/10/2026 20:45 Frosin
  one - Sassuolo\n- 17/10/2026 15:00 Venezia - Napoli\n- 17/10/2026 18:00 Bo
  logna - Inter\n- 17/10/2026 20:45 AS Roma - Genoa\n- 18/10/2026 12:30 Udin
- ese - Lecce\n- 18/10/2026 15:00 Fiorentina - Como\n- 18/10/2026 18:00 AC M
+ ese - Lecce\n- 18/10/2026 15:00 Fiorentina - como\n- 18/10/2026 18:00 AC M
  ilan - Atalanta\n- 18/10/2026 20:45 Juventus - Lazio\n- 19/10/2026 18:30 M
  onza - Cagliari\n- 19/10/2026 20:45 Parma - Torino
 STATUS:CONFIRMED
@@ -176,13 +176,13 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 8
 DTSTART;TZID=Europe/Rome:20261023T194500
 DTEND;TZID=Europe/Rome:20261023T195000
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-8@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   8.\n\nLa prima partita inizia alle 23/10/2026 alle 20:45.\nL'evento è im
  postato a 60 minuti prima.\n\nPartite rilevate:\n- 23/10/2026 20:45 Torino
-  - Monza\n- 24/10/2026 15:00 Cagliari - Bologna\n- 24/10/2026 15:00 Como -
+  - Monza\n- 24/10/2026 15:00 Cagliari - Bologna\n- 24/10/2026 15:00 como -
   Sassuolo\n- 24/10/2026 18:00 Napoli - AS Roma\n- 24/10/2026 20:45 Lazio -
   Parma\n- 25/10/2026 12:30 Inter - Fiorentina\n- 25/10/2026 15:00 Genoa - 
  Venezia\n- 25/10/2026 15:00 Atalanta - Frosinone\n- 25/10/2026 18:00 Lecce
@@ -199,14 +199,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 9
 DTSTART;TZID=Europe/Rome:20261027T173000
 DTEND;TZID=Europe/Rome:20261027T173500
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-9@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   9.\n\nLa prima partita inizia alle 27/10/2026 alle 18:30.\nL'evento è im
  postato a 60 minuti prima.\n\nPartite rilevate:\n- 27/10/2026 18:30 Sassuo
  lo - Lazio\n- 27/10/2026 20:45 AS Roma - Cagliari\n- 27/10/2026 20:45 Tori
- no - Como\n- 28/10/2026 18:30 AC Milan - Bologna\n- 28/10/2026 18:30 Venez
+ no - como\n- 28/10/2026 18:30 AC Milan - Bologna\n- 28/10/2026 18:30 Venez
  ia - Inter\n- 28/10/2026 18:30 Parma - Udinese\n- 28/10/2026 20:45 Genoa -
   Juventus\n- 28/10/2026 20:45 Monza - Napoli\n- 29/10/2026 18:30 Frosinone
   - Lecce\n- 29/10/2026 20:45 Fiorentina - Atalanta
@@ -220,19 +220,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 10
-DTSTART;TZID=Europe/Rome:20261101T173000
-DTEND;TZID=Europe/Rome:20261101T173500
-DTSTAMP:20260930T041332Z
+DTSTART;TZID=Europe/Rome:20261031T140000
+DTEND;TZID=Europe/Rome:20261031T140500
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-10@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
-  10.\n\nLa prima partita inizia alle 01/11/2026 alle 18:30.\nL'evento è i
- mpostato a 60 minuti prima.\n\nPartite rilevate:\n- 01/11/2026 18:30 Lazio
-  - Cagliari\n- 01/11/2026 18:30 Sassuolo - Fiorentina\n- 01/11/2026 18:30 
- AC Milan - Inter\n- 01/11/2026 18:30 Udinese - AS Roma\n- 01/11/2026 18:30
-  Juventus - Napoli\n- 01/11/2026 18:30 Atalanta - Parma\n- 01/11/2026 18:3
- 0 Bologna - Monza\n- 01/11/2026 18:30 Frosinone - Torino\n- 01/11/2026 18:
- 30 Lecce - Genoa\n- 01/11/2026 18:30 Como - Venezia
+  10.\n\nLa prima partita inizia alle 31/10/2026 alle 15:00.\nL'evento è i
+ mpostato a 60 minuti prima.\n\nPartite rilevate:\n- 31/10/2026 15:00 Bolog
+ na - Monza\n- 31/10/2026 18:00 Udinese - AS Roma\n- 31/10/2026 20:45 AC Mi
+ lan - Inter\n- 01/11/2026 12:30 como - Venezia\n- 01/11/2026 15:00 Lazio -
+  Cagliari\n- 01/11/2026 15:00 Frosinone - Torino\n- 01/11/2026 18:00 Lecce
+  - Genoa\n- 01/11/2026 20:45 Juventus - Napoli\n- 02/11/2026 18:30 Sassuol
+ o - Fiorentina\n- 02/11/2026 20:45 Atalanta - Parma
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -243,19 +243,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 11
-DTSTART;TZID=Europe/Rome:20261108T173000
-DTEND;TZID=Europe/Rome:20261108T173500
-DTSTAMP:20260930T041332Z
+DTSTART;TZID=Europe/Rome:20261106T194500
+DTEND;TZID=Europe/Rome:20261106T195000
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-11@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
-  11.\n\nLa prima partita inizia alle 08/11/2026 alle 18:30.\nL'evento è i
- mpostato a 60 minuti prima.\n\nPartite rilevate:\n- 08/11/2026 18:30 Cagli
- ari - Frosinone\n- 08/11/2026 18:30 Napoli - Lazio\n- 08/11/2026 18:30 Gen
- oa - AC Milan\n- 08/11/2026 18:30 AS Roma - Sassuolo\n- 08/11/2026 18:30 F
- iorentina - Juventus\n- 08/11/2026 18:30 Torino - Lecce\n- 08/11/2026 18:3
- 0 Inter - Como\n- 08/11/2026 18:30 Venezia - Udinese\n- 08/11/2026 18:30 P
- arma - Bologna\n- 08/11/2026 18:30 Monza - Atalanta
+  11.\n\nLa prima partita inizia alle 06/11/2026 alle 20:45.\nL'evento è i
+ mpostato a 60 minuti prima.\n\nPartite rilevate:\n- 06/11/2026 20:45 Venez
+ ia - Udinese\n- 07/11/2026 15:00 Cagliari - Frosinone\n- 07/11/2026 15:00 
+ Torino - Lecce\n- 07/11/2026 18:00 Parma - Bologna\n- 07/11/2026 20:45 AS 
+ Roma - Sassuolo\n- 08/11/2026 12:30 Napoli - Lazio\n- 08/11/2026 15:00 Gen
+ oa - AC Milan\n- 08/11/2026 15:00 Monza - Atalanta\n- 08/11/2026 18:00 Int
+ er - como\n- 08/11/2026 20:45 Fiorentina - Juventus
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -266,19 +266,19 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 12
-DTSTART;TZID=Europe/Rome:20261122T173000
-DTEND;TZID=Europe/Rome:20261122T173500
-DTSTAMP:20260930T041332Z
+DTSTART;TZID=Europe/Rome:20261121T140000
+DTEND;TZID=Europe/Rome:20261121T140500
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-12@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
-  12.\n\nLa prima partita inizia alle 22/11/2026 alle 18:30.\nL'evento è i
- mpostato a 60 minuti prima.\n\nPartite rilevate:\n- 22/11/2026 18:30 Lazio
-  - Lecce\n- 22/11/2026 18:30 Sassuolo - Genoa\n- 22/11/2026 18:30 AC Milan
-  - Frosinone\n- 22/11/2026 18:30 Napoli - Torino\n- 22/11/2026 18:30 Juven
- tus - Venezia\n- 22/11/2026 18:30 Atalanta - Inter\n- 22/11/2026 18:30 Bol
- ogna - Udinese\n- 22/11/2026 18:30 Parma - AS Roma\n- 22/11/2026 18:30 Com
- o - Cagliari\n- 22/11/2026 18:30 Monza - Fiorentina
+  12.\n\nLa prima partita inizia alle 21/11/2026 alle 15:00.\nL'evento è i
+ mpostato a 60 minuti prima.\n\nPartite rilevate:\n- 21/11/2026 15:00 Lazio
+  - Lecce\n- 21/11/2026 15:00 como - Cagliari\n- 21/11/2026 18:00 Parma - A
+ S Roma\n- 21/11/2026 20:45 Napoli - Torino\n- 22/11/2026 12:30 Sassuolo - 
+ Genoa\n- 22/11/2026 15:00 AC Milan - Frosinone\n- 22/11/2026 18:00 Bologna
+  - Udinese\n- 22/11/2026 20:45 Atalanta - Inter\n- 23/11/2026 18:30 Monza 
+ - Fiorentina\n- 23/11/2026 20:45 Juventus - Venezia
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -291,7 +291,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 13
 DTSTART;TZID=Europe/Rome:20261129T173000
 DTEND;TZID=Europe/Rome:20261129T173500
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-13@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
@@ -301,7 +301,7 @@ DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
  dinese - Fiorentina\n- 29/11/2026 18:30 AS Roma - Monza\n- 29/11/2026 18:3
  0 Torino - Lazio\n- 29/11/2026 18:30 Inter - Genoa\n- 29/11/2026 18:30 Fro
  sinone - Parma\n- 29/11/2026 18:30 Venezia - Bologna\n- 29/11/2026 18:30 L
- ecce - Atalanta\n- 29/11/2026 18:30 Como - Juventus
+ ecce - Atalanta\n- 29/11/2026 18:30 como - Juventus
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -314,7 +314,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 14
 DTSTART;TZID=Europe/Rome:20261206T173000
 DTEND;TZID=Europe/Rome:20261206T173500
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-14@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
@@ -324,7 +324,7 @@ DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
  i - Lecce\n- 06/12/2026 18:30 Genoa - Torino\n- 06/12/2026 18:30 Juventus 
  - Udinese\n- 06/12/2026 18:30 Bologna - AS Roma\n- 06/12/2026 18:30 Fioren
  tina - Cagliari\n- 06/12/2026 18:30 Frosinone - Inter\n- 06/12/2026 18:30 
- Venezia - Sassuolo\n- 06/12/2026 18:30 Monza - Como
+ Venezia - Sassuolo\n- 06/12/2026 18:30 Monza - como
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -337,7 +337,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 15
 DTSTART;TZID=Europe/Rome:20261213T173000
 DTEND;TZID=Europe/Rome:20261213T173500
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-15@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
@@ -347,7 +347,7 @@ DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
  li - AC Milan\n- 13/12/2026 18:30 Udinese - Frosinone\n- 13/12/2026 18:30 
  Juventus - Monza\n- 13/12/2026 18:30 Atalanta - Genoa\n- 13/12/2026 18:30 
  Inter - Torino\n- 13/12/2026 18:30 Parma - Fiorentina\n- 13/12/2026 18:30 
- Lecce - Sassuolo\n- 13/12/2026 18:30 Como - Bologna
+ Lecce - Sassuolo\n- 13/12/2026 18:30 como - Bologna
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -360,13 +360,13 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 16
 DTSTART;TZID=Europe/Rome:20261220T173000
 DTEND;TZID=Europe/Rome:20261220T173500
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-16@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   16.\n\nLa prima partita inizia alle 20/12/2026 alle 18:30.\nL'evento è i
  mpostato a 60 minuti prima.\n\nPartite rilevate:\n- 20/12/2026 18:30 Sassu
- olo - Parma\n- 20/12/2026 18:30 AC Milan - Como\n- 20/12/2026 18:30 Genoa 
+ olo - Parma\n- 20/12/2026 18:30 AC Milan - como\n- 20/12/2026 18:30 Genoa 
  - Udinese\n- 20/12/2026 18:30 AS Roma - Juventus\n- 20/12/2026 18:30 Atala
  nta - Napoli\n- 20/12/2026 18:30 Fiorentina - Bologna\n- 20/12/2026 18:30 
  Torino - Cagliari\n- 20/12/2026 18:30 Frosinone - Lazio\n- 20/12/2026 18:3
@@ -383,7 +383,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 17
 DTSTART;TZID=Europe/Rome:20270103T173000
 DTEND;TZID=Europe/Rome:20270103T173500
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-17@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
@@ -393,7 +393,7 @@ DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
  Roma - Frosinone\n- 03/01/2027 18:30 Bologna - Juventus\n- 03/01/2027 18:3
  0 Fiorentina - Lazio\n- 03/01/2027 18:30 Torino - Venezia\n- 03/01/2027 18
  :30 Inter - Sassuolo\n- 03/01/2027 18:30 Parma - Napoli\n- 03/01/2027 18:3
- 0 Como - Lecce\n- 03/01/2027 18:30 Monza - AC Milan
+ 0 como - Lecce\n- 03/01/2027 18:30 Monza - AC Milan
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -406,7 +406,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 18
 DTSTART;TZID=Europe/Rome:20270106T173000
 DTEND;TZID=Europe/Rome:20270106T173500
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-18@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
@@ -415,7 +415,7 @@ DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   - Inter\n- 06/01/2027 18:30 Sassuolo - Udinese\n- 06/01/2027 18:30 AC Mil
  an - Fiorentina\n- 06/01/2027 18:30 Napoli - Cagliari\n- 06/01/2027 18:30 
  Genoa - Monza\n- 06/01/2027 18:30 Juventus - Torino\n- 06/01/2027 18:30 At
- alanta - Como\n- 06/01/2027 18:30 Frosinone - Bologna\n- 06/01/2027 18:30 
+ alanta - como\n- 06/01/2027 18:30 Frosinone - Bologna\n- 06/01/2027 18:30 
  Venezia - AS Roma\n- 06/01/2027 18:30 Lecce - Parma
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -429,7 +429,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 19
 DTSTART;TZID=Europe/Rome:20270110T173000
 DTEND;TZID=Europe/Rome:20270110T173500
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-19@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
@@ -439,7 +439,7 @@ DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   Roma - AC Milan\n- 10/01/2027 18:30 Bologna - Genoa\n- 10/01/2027 18:30 F
  iorentina - Lecce\n- 10/01/2027 18:30 Torino - Atalanta\n- 10/01/2027 18:3
  0 Inter - Juventus\n- 10/01/2027 18:30 Parma - Venezia\n- 10/01/2027 18:30
-  Como - Lazio\n- 10/01/2027 18:30 Monza - Frosinone
+  como - Lazio\n- 10/01/2027 18:30 Monza - Frosinone
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -452,14 +452,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 20
 DTSTART;TZID=Europe/Rome:20270117T173000
 DTEND;TZID=Europe/Rome:20270117T173500
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-20@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   20.\n\nLa prima partita inizia alle 17/01/2027 alle 18:30.\nL'evento è i
  mpostato a 60 minuti prima.\n\nPartite rilevate:\n- 17/01/2027 18:30 Lazio
   - Bologna\n- 17/01/2027 18:30 Sassuolo - Monza\n- 17/01/2027 18:30 AC Mil
- an - Torino\n- 17/01/2027 18:30 Cagliari - Como\n- 17/01/2027 18:30 Napoli
+ an - Torino\n- 17/01/2027 18:30 Cagliari - como\n- 17/01/2027 18:30 Napoli
   - Fiorentina\n- 17/01/2027 18:30 Juventus - Genoa\n- 17/01/2027 18:30 Ata
  lanta - AS Roma\n- 17/01/2027 18:30 Venezia - Frosinone\n- 17/01/2027 18:3
  0 Parma - Inter\n- 17/01/2027 18:30 Lecce - Udinese
@@ -475,7 +475,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 21
 DTSTART;TZID=Europe/Rome:20270124T173000
 DTEND;TZID=Europe/Rome:20270124T173500
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-21@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
@@ -485,7 +485,7 @@ DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
  ma - Udinese\n- 24/01/2027 18:30 Bologna - Atalanta\n- 24/01/2027 18:30 Fi
  orentina - Sassuolo\n- 24/01/2027 18:30 Inter - Venezia\n- 24/01/2027 18:3
  0 Frosinone - AC Milan\n- 24/01/2027 18:30 Lecce - Torino\n- 24/01/2027 18
- :30 Como - Napoli\n- 24/01/2027 18:30 Monza - Lazio
+ :30 como - Napoli\n- 24/01/2027 18:30 Monza - Lazio
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -498,13 +498,13 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 22
 DTSTART;TZID=Europe/Rome:20270131T173000
 DTEND;TZID=Europe/Rome:20270131T173500
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-22@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   22.\n\nLa prima partita inizia alle 31/01/2027 alle 18:30.\nL'evento è i
  mpostato a 60 minuti prima.\n\nPartite rilevate:\n- 31/01/2027 18:30 Lazio
-  - Venezia\n- 31/01/2027 18:30 Sassuolo - Como\n- 31/01/2027 18:30 AC Mila
+  - Venezia\n- 31/01/2027 18:30 Sassuolo - como\n- 31/01/2027 18:30 AC Mila
  n - Juventus\n- 31/01/2027 18:30 Cagliari - Parma\n- 31/01/2027 18:30 Napo
  li - Inter\n- 31/01/2027 18:30 Udinese - Bologna\n- 31/01/2027 18:30 Genoa
   - Lecce\n- 31/01/2027 18:30 Atalanta - Fiorentina\n- 31/01/2027 18:30 Tor
@@ -521,7 +521,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 23
 DTSTART;TZID=Europe/Rome:20270207T173000
 DTEND;TZID=Europe/Rome:20270207T173500
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-23@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
@@ -531,7 +531,7 @@ DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
  alanta - Lazio\n- 07/02/2027 18:30 Bologna - AC Milan\n- 07/02/2027 18:30 
  Fiorentina - Udinese\n- 07/02/2027 18:30 Inter - Cagliari\n- 07/02/2027 18
  :30 Venezia - Genoa\n- 07/02/2027 18:30 Parma - Frosinone\n- 07/02/2027 18
- :30 Lecce - Napoli\n- 07/02/2027 18:30 Como - Monza
+ :30 Lecce - Napoli\n- 07/02/2027 18:30 como - Monza
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -544,7 +544,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 24
 DTSTART;TZID=Europe/Rome:20270214T173000
 DTEND;TZID=Europe/Rome:20270214T173500
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-24@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
@@ -552,7 +552,7 @@ DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
  mpostato a 60 minuti prima.\n\nPartite rilevate:\n- 14/02/2027 18:30 Cagli
  ari - Lazio\n- 14/02/2027 18:30 Napoli - Juventus\n- 14/02/2027 18:30 Udin
  ese - Venezia\n- 14/02/2027 18:30 Genoa - Atalanta\n- 14/02/2027 18:30 AS 
- Roma - Parma\n- 14/02/2027 18:30 Bologna - Como\n- 14/02/2027 18:30 Torino
+ Roma - Parma\n- 14/02/2027 18:30 Bologna - como\n- 14/02/2027 18:30 Torino
   - Sassuolo\n- 14/02/2027 18:30 Inter - AC Milan\n- 14/02/2027 18:30 Frosi
  none - Fiorentina\n- 14/02/2027 18:30 Monza - Lecce
 STATUS:CONFIRMED
@@ -567,7 +567,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 25
 DTSTART;TZID=Europe/Rome:20270221T173000
 DTEND;TZID=Europe/Rome:20270221T173500
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-25@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
@@ -577,7 +577,7 @@ DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
  lan - Genoa\n- 21/02/2027 18:30 Udinese - Parma\n- 21/02/2027 18:30 Juvent
  us - Bologna\n- 21/02/2027 18:30 Atalanta - Monza\n- 21/02/2027 18:30 Fior
  entina - Inter\n- 21/02/2027 18:30 Venezia - Cagliari\n- 21/02/2027 18:30 
- Lecce - Frosinone\n- 21/02/2027 18:30 Como - Torino
+ Lecce - Frosinone\n- 21/02/2027 18:30 como - Torino
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -590,7 +590,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 26
 DTSTART;TZID=Europe/Rome:20270228T173000
 DTEND;TZID=Europe/Rome:20270228T173500
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-26@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
@@ -599,7 +599,7 @@ DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
  ari - Udinese\n- 28/02/2027 18:30 Genoa - Lazio\n- 28/02/2027 18:30 AS Rom
  a - Venezia\n- 28/02/2027 18:30 Bologna - Lecce\n- 28/02/2027 18:30 Torino
   - Fiorentina\n- 28/02/2027 18:30 Inter - Atalanta\n- 28/02/2027 18:30 Fro
- sinone - Napoli\n- 28/02/2027 18:30 Parma - Sassuolo\n- 28/02/2027 18:30 C
+ sinone - Napoli\n- 28/02/2027 18:30 Parma - Sassuolo\n- 28/02/2027 18:30 c
  omo - AC Milan\n- 28/02/2027 18:30 Monza - Juventus
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -613,7 +613,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 27
 DTSTART;TZID=Europe/Rome:20270307T173000
 DTEND;TZID=Europe/Rome:20270307T173500
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-27@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
@@ -623,7 +623,7 @@ DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   Milan - Cagliari\n- 07/03/2027 18:30 Napoli - Parma\n- 07/03/2027 18:30 U
  dinese - Inter\n- 07/03/2027 18:30 Juventus - AS Roma\n- 07/03/2027 18:30 
  Atalanta - Torino\n- 07/03/2027 18:30 Fiorentina - Venezia\n- 07/03/2027 1
- 8:30 Lecce - Como\n- 07/03/2027 18:30 Monza - Genoa
+ 8:30 Lecce - como\n- 07/03/2027 18:30 Monza - Genoa
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -636,7 +636,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 28
 DTSTART;TZID=Europe/Rome:20270314T173000
 DTEND;TZID=Europe/Rome:20270314T173500
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-28@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
@@ -646,7 +646,7 @@ DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
  gliari - Fiorentina\n- 14/03/2027 18:30 Genoa - AS Roma\n- 14/03/2027 18:3
  0 Bologna - Napoli\n- 14/03/2027 18:30 Torino - Inter\n- 14/03/2027 18:30 
  Frosinone - Monza\n- 14/03/2027 18:30 Venezia - Atalanta\n- 14/03/2027 18:
- 30 Parma - Lecce\n- 14/03/2027 18:30 Como - Udinese
+ 30 Parma - Lecce\n- 14/03/2027 18:30 como - Udinese
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -659,14 +659,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 29
 DTSTART;TZID=Europe/Rome:20270321T173000
 DTEND;TZID=Europe/Rome:20270321T173500
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-29@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   29.\n\nLa prima partita inizia alle 21/03/2027 alle 18:30.\nL'evento è i
  mpostato a 60 minuti prima.\n\nPartite rilevate:\n- 21/03/2027 18:30 Sassu
  olo - Cagliari\n- 21/03/2027 18:30 Napoli - Venezia\n- 21/03/2027 18:30 Ud
- inese - Torino\n- 21/03/2027 18:30 Juventus - Como\n- 21/03/2027 18:30 AS 
+ inese - Torino\n- 21/03/2027 18:30 Juventus - como\n- 21/03/2027 18:30 AS 
  Roma - Lecce\n- 21/03/2027 18:30 Atalanta - AC Milan\n- 21/03/2027 18:30 F
  iorentina - Genoa\n- 21/03/2027 18:30 Inter - Frosinone\n- 21/03/2027 18:3
  0 Parma - Lazio\n- 21/03/2027 18:30 Monza - Bologna
@@ -682,7 +682,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 30
 DTSTART;TZID=Europe/Rome:20270404T173000
 DTEND;TZID=Europe/Rome:20270404T173500
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-30@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
@@ -692,7 +692,7 @@ DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
  gliari - Napoli\n- 04/04/2027 18:30 Genoa - Inter\n- 04/04/2027 18:30 AS R
  oma - Bologna\n- 04/04/2027 18:30 Torino - Juventus\n- 04/04/2027 18:30 Fr
  osinone - Udinese\n- 04/04/2027 18:30 Venezia - Parma\n- 04/04/2027 18:30 
- Lecce - Lazio\n- 04/04/2027 18:30 Como - Fiorentina
+ Lecce - Lazio\n- 04/04/2027 18:30 como - Fiorentina
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -705,7 +705,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 31
 DTSTART;TZID=Europe/Rome:20270411T173000
 DTEND;TZID=Europe/Rome:20270411T173500
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-31@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
@@ -715,7 +715,7 @@ DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
  li - Sassuolo\n- 11/04/2027 18:30 Udinese - Monza\n- 11/04/2027 18:30 Juve
  ntus - Lecce\n- 11/04/2027 18:30 Bologna - Venezia\n- 11/04/2027 18:30 Fio
  rentina - AC Milan\n- 11/04/2027 18:30 Inter - AS Roma\n- 11/04/2027 18:30
-  Frosinone - Genoa\n- 11/04/2027 18:30 Parma - Como
+  Frosinone - Genoa\n- 11/04/2027 18:30 Parma - como
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -728,7 +728,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 32
 DTSTART;TZID=Europe/Rome:20270418T173000
 DTEND;TZID=Europe/Rome:20270418T173500
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-32@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
@@ -738,7 +738,7 @@ DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
  oma - Lazio\n- 18/04/2027 18:30 Atalanta - Udinese\n- 18/04/2027 18:30 Bol
  ogna - Cagliari\n- 18/04/2027 18:30 Fiorentina - Parma\n- 18/04/2027 18:30
   Torino - Genoa\n- 18/04/2027 18:30 Venezia - Juventus\n- 18/04/2027 18:30
-  Como - Frosinone\n- 18/04/2027 18:30 Monza - Inter
+  como - Frosinone\n- 18/04/2027 18:30 Monza - Inter
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -751,13 +751,13 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 33
 DTSTART;TZID=Europe/Rome:20270425T173000
 DTEND;TZID=Europe/Rome:20270425T173500
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-33@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   33.\n\nLa prima partita inizia alle 25/04/2027 alle 18:30.\nL'evento è i
  mpostato a 60 minuti prima.\n\nPartite rilevate:\n- 25/04/2027 18:30 Lazio
-  - Como\n- 25/04/2027 18:30 Cagliari - Monza\n- 25/04/2027 18:30 Napoli - 
+  - como\n- 25/04/2027 18:30 Cagliari - Monza\n- 25/04/2027 18:30 Napoli - 
  Udinese\n- 25/04/2027 18:30 Genoa - Sassuolo\n- 25/04/2027 18:30 Juventus 
  - Fiorentina\n- 25/04/2027 18:30 Inter - Bologna\n- 25/04/2027 18:30 Frosi
  none - AS Roma\n- 25/04/2027 18:30 Venezia - Torino\n- 25/04/2027 18:30 Pa
@@ -774,7 +774,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 34
 DTSTART;TZID=Europe/Rome:20270502T173000
 DTEND;TZID=Europe/Rome:20270502T173500
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-34@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
@@ -784,7 +784,7 @@ DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
  dinese - Genoa\n- 02/05/2027 18:30 AS Roma - Napoli\n- 02/05/2027 18:30 At
  alanta - Juventus\n- 02/05/2027 18:30 Bologna - Fiorentina\n- 02/05/2027 1
  8:30 Torino - Parma\n- 02/05/2027 18:30 Lecce - Cagliari\n- 02/05/2027 18:
- 30 Como - Inter\n- 02/05/2027 18:30 Monza - Venezia
+ 30 como - Inter\n- 02/05/2027 18:30 Monza - Venezia
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -797,7 +797,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 35
 DTSTART;TZID=Europe/Rome:20270509T173000
 DTEND;TZID=Europe/Rome:20270509T173500
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-35@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
@@ -807,7 +807,7 @@ DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   - Juventus\n- 09/05/2027 18:30 Genoa - Cagliari\n- 09/05/2027 18:30 Fiore
  ntina - AS Roma\n- 09/05/2027 18:30 Torino - Bologna\n- 09/05/2027 18:30 I
  nter - Lecce\n- 09/05/2027 18:30 Frosinone - Atalanta\n- 09/05/2027 18:30 
- Venezia - Como\n- 09/05/2027 18:30 Parma - AC Milan
+ Venezia - como\n- 09/05/2027 18:30 Parma - AC Milan
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -820,7 +820,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 36
 DTSTART;TZID=Europe/Rome:20270516T173000
 DTEND;TZID=Europe/Rome:20270516T173500
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-36@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
@@ -830,7 +830,7 @@ DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
  ilan - AS Roma\n- 16/05/2027 18:30 Cagliari - Torino\n- 16/05/2027 18:30 N
  apoli - Genoa\n- 16/05/2027 18:30 Juventus - Inter\n- 16/05/2027 18:30 Bol
  ogna - Frosinone\n- 16/05/2027 18:30 Lecce - Fiorentina\n- 16/05/2027 18:3
- 0 Como - Atalanta\n- 16/05/2027 18:30 Monza - Parma
+ 0 como - Atalanta\n- 16/05/2027 18:30 Monza - Parma
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -843,14 +843,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 37
 DTSTART;TZID=Europe/Rome:20270523T173000
 DTEND;TZID=Europe/Rome:20270523T173500
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-37@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
   37.\n\nLa prima partita inizia alle 23/05/2027 alle 18:30.\nL'evento è i
  mpostato a 60 minuti prima.\n\nPartite rilevate:\n- 23/05/2027 18:30 Udine
  se - Sassuolo\n- 23/05/2027 18:30 Genoa - Bologna\n- 23/05/2027 18:30 AS R
- oma - Como\n- 23/05/2027 18:30 Atalanta - Lecce\n- 23/05/2027 18:30 Fioren
+ oma - como\n- 23/05/2027 18:30 Atalanta - Lecce\n- 23/05/2027 18:30 Fioren
  tina - Monza\n- 23/05/2027 18:30 Torino - Napoli\n- 23/05/2027 18:30 Inter
   - Lazio\n- 23/05/2027 18:30 Frosinone - Cagliari\n- 23/05/2027 18:30 Vene
  zia - AC Milan\n- 23/05/2027 18:30 Parma - Juventus
@@ -866,7 +866,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ Inserire formazione Fantacalcio — Giornata 38
 DTSTART;TZID=Europe/Rome:20270530T173000
 DTEND;TZID=Europe/Rome:20270530T173500
-DTSTAMP:20260930T041332Z
+DTSTAMP:20261001T041334Z
 UID:fantacalcio-formazione-2026-27-giornata-38@calendar.local
 CATEGORIES:Fantacalcio
 DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
@@ -876,7 +876,7 @@ DESCRIPTION:Scadenza consigliata per inserire la formazione della giornata
  Milan - Udinese\n- 30/05/2027 18:30 Cagliari - AS Roma\n- 30/05/2027 18:30
   Napoli - Atalanta\n- 30/05/2027 18:30 Juventus - Frosinone\n- 30/05/2027 
  18:30 Bologna - Parma\n- 30/05/2027 18:30 Lecce - Venezia\n- 30/05/2027 18
- :30 Como - Genoa\n- 30/05/2027 18:30 Monza - Torino
+ :30 como - Genoa\n- 30/05/2027 18:30 Monza - Torino
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
